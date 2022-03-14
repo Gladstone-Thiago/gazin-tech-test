@@ -1,0 +1,7 @@
+# build do aplicativo
+npm run build
+# caso tenha problemas
+# Exclua seu package-lock.jsonarquivo e node_modulespasta. Em seguida, faça a limpeza do cache npm
+npm cache clean --force
+# Faz npm install
+npm install
